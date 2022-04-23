@@ -1,0 +1,5 @@
+1: Create SCSS
+2: Watch SCSS
+3: sudo npm i -g typescript
+3: Create TS file
+4: tsc --watch

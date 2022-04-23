@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-wrapper {
+  width: 800px;
+}
+
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 1.5rem;
+}
+
+.hero-links {
+  display: flex;
+  gap: 2rem;
+  color: #f9faf8;
+  list-style-type: none;
+  font-size: 1.125rem;
+}
+
+.hero-section {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.hero-info {
+  display: flex;
+  flex-flow: column;
+}
+
+.hero-main-text {
+  font-size: 3rem;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.hero-secondary-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero-button {
+  align-self: flex-start;
+  margin-top: 1rem;
+  padding: 0.5em;
+  width: 6rem;
+  border: none;
+  text-decoration: none;
+  border-radius: 0.75rem;
+  color: #e5e7eb;
+  font-weight: bold;
+  background: rgb(40, 130, 232);
+}
+
+.hero-img {
+  width: 20rem;
+  height: auto;
+}/*# sourceMappingURL=style.css.map */
