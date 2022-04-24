@@ -13,6 +13,26 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+button {
+  transition-duration: 0.2s;
+  padding: 0.5em;
+  width: 6rem;
+  border: none;
+  text-decoration: none;
+  border-radius: 0.75rem;
+  color: $greyish;
+  font-weight: bold;
+  background: rgb(40, 130, 232);
+}
+
+button:hover {
+  background-color: #72a2ef;
+  cursor: pointer;
+  color: #1a2432;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
 .hero {
   background-color: $black;
   display: flex;
@@ -20,7 +40,7 @@ body {
   align-items: center;
 }
 .hero-wrapper {
-  width: 800px;
+  width: 50%;
 }
 
 .hero-header {
@@ -45,7 +65,8 @@ body {
 
 .hero-section {
   display: flex;
-  gap: 1rem;
+  justify-content: space-between;
+  gap: 4rem;
   margin-bottom: 4rem;
 }
 
@@ -60,25 +81,58 @@ body {
   font-weight: bold;
 }
 
-.hero-secondary-text {
+.hero-text {
   color: $greyish;
   font-size: 18px;
+  width: 25rem;
 }
 
 .hero-button {
   align-self: flex-start;
   margin-top: 1rem;
-  padding: 0.5em;
-  width: 6rem;
-  border: none;
-  text-decoration: none;
-  border-radius: 0.75rem;
-  color: $greyish;
-  font-weight: bold;
-  background: rgb(40, 130, 232);
 }
 
 .hero-img {
   width: 20rem;
   height: auto;
+}
+
+.info-section {
+  display: flex;
+  flex-flow: column;
+  width: 80%;
+  margin: 3rem auto;
+  align-items: center;
+  gap: 1.875rem;
+}
+
+.info-header {
+  color: $black;
+  font-size: 2.25rem;
+  font-weight: bolder;
+}
+
+.info-article {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 1.25rem;
+  flex: 0;
+}
+
+.info-img {
+  border: solid 0.2rem $blue;
+  border-radius: 1.25rem;
+  height: 170px;
+  width: 170px;
+}
+
+.info-text {
+  text-align: center;
 }
