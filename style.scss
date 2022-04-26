@@ -35,18 +35,16 @@ button:hover {
 
 .hero {
   background-color: $black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .hero-wrapper {
   width: 50%;
+  margin: 0 auto;
 }
 
 .hero-header {
   display: flex;
   justify-content: space-between;
-  margin-top: 1rem;
+  padding-top: 1rem;
   margin-bottom: 4rem;
 }
 
@@ -67,7 +65,7 @@ button:hover {
   display: flex;
   justify-content: space-between;
   gap: 4rem;
-  margin-bottom: 4rem;
+  padding-bottom: 4rem;
 }
 
 .hero-info {
@@ -139,12 +137,11 @@ button:hover {
 
 .quote-section {
   background-color: $greyish;
-  margin-bottom: 5rem;
 }
 
 .quote-wrap {
   width: 50%;
-  margin: 8rem auto;
+  margin: 10rem auto;
   display: flex;
   flex-flow: column;
   padding: 5rem 0;
@@ -163,4 +160,49 @@ button:hover {
   font-size: 1.5rem;
   font-weight: bold;
   padding-right: 3.125rem;
+}
+
+.banner {
+  background-color: $blue;
+  width: 50rem;
+  margin: 10rem auto;
+  padding: 2em 0;
+  border-radius: 0.6rem;
+}
+
+.banner-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 12rem;
+}
+
+.banner-text {
+  color: $white-text;
+}
+
+.banner-text {
+  h4 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+
+.banner-button {
+  border: 0.15rem solid $white-text;
+}
+
+.banner-button:hover {
+  transform: translateY(-2px);
+}
+
+.footer {
+  background-color: #1f2937;
+}
+
+.footer-text {
+  color: $greyish;
+  text-align: center;
+  padding: 2em;
 }
